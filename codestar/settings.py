@@ -24,7 +24,7 @@ SECRET_KEY = 'Sw8gumman8224829'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-ALLOWED_HOSTS = ['8000-christineec-newdjangobl-4m6310nr8uy.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['8000-christineec-newdjangobl-4m6310nr8uy.ws.codeinstitute-ide.net', '.herokuapp.com']
 
 
 # Application definition
