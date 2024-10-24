@@ -36,7 +36,7 @@ ALLOWED_HOSTS = ['8000-christineec-newdjangobl-4m6310nr8uy.ws.codeinstitute-ide.
 
 INSTALLED_APPS = [
     'django.contrib.admin',
-    'django.contrib.auth',
+    'django.contrib.auth', 
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
