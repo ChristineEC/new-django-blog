@@ -13,7 +13,7 @@ def about_me(request):
     if request.method == "POST":
         collaborate_form = CollaborateForm(data=request.POST)
         if collaborate_form.is_valid():
-            collaborate_request.save()
+            collaborate_form.save()
             messages.add_message(
                 request, messages.SUCCESS,
                 "Collaboration request received! I endeavour to respond within 2 working days."
@@ -27,7 +27,7 @@ def about_me(request):
         request,
         "about/about.html",
         {"about": about,
-        "collaborate_form": collaborate_form,
+        "collaborate_form": collaborate_form
         },
     )
 
